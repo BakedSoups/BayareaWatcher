@@ -1,0 +1,13 @@
+column_name,meaning,population_method,allowed_or_source_values
+source_file,Source PDF filename,Copied from source_document.filename,BART_FY25 PAFR_Final.pdf
+report_title,Human-readable report name,Copied from source_document.document_title,BART FY25 Popular Annual Financial Report
+source_page,Printed report page containing the table,Copied from source_document.source_page,Page 11
+units,Units used by the report,Copied from source_document.units,$ millions
+section,Financial grouping,Transcribed from the table section heading,"Operating Sources, Financial Assistance, Operating Uses, Debt Service & Allocations, or Operating Result"
+label,Line-item name,Transcribed from the table row label,Table row text
+line_kind,Detail versus subtotal/total/result classification,Assigned while transcribing the table hierarchy,"detail, subtotal, total, or result"
+fy25_millions,FY25 budget amount,Transcribed from the FY25 Budget column,Numeric value in millions; report dashes represented as 0.0 only where the line is structurally zero
+fy26_millions,FY26 budget amount,Transcribed from the FY26 Budget column,Numeric value in millions
+reported_change_millions,Report-reported FY25-to-FY26 dollar change,Transcribed from the report's change column,Parentheses converted to negative numbers
+reported_change_pct,Report-reported FY25-to-FY26 percentage change,Transcribed from the report's percentage column,Blank when the report shows a dash or no meaningful percentage
+extraction_note,Provenance and interpretation note,Added during export,Values are rounded to the report's displayed precision; source page is retained for audit
